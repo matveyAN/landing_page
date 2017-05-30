@@ -25,3 +25,103 @@ body textarea:focus:required:invalid {
 body textarea:required:valid {
   border: 3px solid green;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url("../img/f1.jpg");
+  min-height: 1019px;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 99px;
+}
+
+header .logo {
+  float: left;
+}
+
+header .logo img {
+  width: 101px;
+  height: 75px;
+}
+
+header nav {
+  float: right;
+  margin-top: 22px;
+}
+
+header nav a {
+  color: #fffefe;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 35px;
+}
+
+header #owl-carousel .item {
+  position: relative;
+  text-align: center;
+  color: #fffefe;
+  padding-top: 285px;
+}
+
+header #owl-carousel .item .top_text {
+  font-size: 72px;
+  font-family: "Lato", sans-serif;
+}
+
+header #owl-carousel .item .text {
+  font-size: 20px;
+  font-family: "Open Sans Light";
+}
+
+header #owl-carousel .item button {
+  background: none;
+  color: #fffefe;
+  font-family: "Montserrat-Regular";
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  border: 3px solid #645f61;
+  padding: 10px 40px;
+}
+
+header #owl-carousel .owl-prev:after {
+  content: "\f104";
+  font: normal normal normal 14px/1 FontAwesome;
+  width: 53px;
+  height: 53px;
+  left: 80px;
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  top: 70%;
+  margin-left: -25px;
+  border: 2px solid #4b4c51;
+  padding: 10px 20px;
+}
+
+header #owl-carousel .owl-next:after {
+  content: "\f105";
+  width: 53px;
+  height: 53px;
+  font: normal normal normal 14px/1 FontAwesome;
+  right: 80px;
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  top: 70%;
+  margin-right: -25px;
+  border: 2px solid #4b4c51;
+  padding: 10px 20px;
+}
