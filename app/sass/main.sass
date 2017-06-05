@@ -24,11 +24,13 @@ body textarea:required:valid
 	border: 3px solid green
 $header: #fffefe;
 $lato: 'Lato', sans-serif;
+$sans: "OpenSansLight";
 
 body
 	margin: 0
 	padding: 0
-.wrapper
+
+.container
 	max-width: 1200px
 	margin: 0 auto
 header
@@ -53,52 +55,57 @@ header
 			text-decoration: none
 			font-size: 18px
 			padding-left: 35px
+			cursor: pointer
 	#owl-carousel
 		.item
 			position: relative
 			text-align: center
 			color: $header
-			padding-top: 285px
+			padding-top: 325px
 			.top_text
 				font-size: 72px
 				font-family: $lato
 			.text
 				font-size: 20px
-				font-family: "Open Sans Light"
+				font-family: $sans
+				padding-top: 32px
 				
 			button
 				background: none
 				color: #fffefe
-				font-family: "Montserrat-Regular"
+				font-family: 'MontserratRegular'
 				font-size: 24px
 				text-transform: uppercase
 				margin-top: 50px
 				border: 3px solid #645f61
 				padding: 10px 40px
+				cursor: pointer
 		.owl-prev:after
 			content: "\f104"
 			font: normal normal normal 14px/1 FontAwesome
-			width: 53px
-			height: 53px
-			left: 80px
+			// width: 53px
+			// height: 53px
+			left: -15px
 			font-size: 30px
 			color: #fff
 			position: absolute
-			top: 70%
-			margin-left: -25px
+			top: 73%
 			border: 2px solid #4b4c51
-			padding: 10px 20px
+			padding: 15px 25px
 		.owl-next:after
 			content: "\f105"
-			width: 53px
-			height: 53px
+			// width: 53px
+			// height: 53px
 			font: normal normal normal 14px/1 FontAwesome
-			right: 80px
+			right: -15px
 			font-size: 30px
 			color: #fff
 			position: absolute
-			top: 70%
-			margin-right: -25px
+			top: 73%
 			border: 2px solid #4b4c51
-			padding: 10px 20px 
+			padding: 15px 25px 
+
+
 			
+
+
