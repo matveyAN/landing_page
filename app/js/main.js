@@ -4,7 +4,6 @@ $(document).ready(function(){
 	navigation: true,
 	navigationText: false,
 	items: 1,
-	slideSpeed: 1000,
 	});
 
 	$('#car_client').owlCarousel({
