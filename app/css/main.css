@@ -288,12 +288,14 @@ header #owl-carousel .owl-next:after {
 
 .choose_us {
   text-align: center;
+  padding-bottom: 140px;
 }
 
 .choose_us .top_text {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   padding-bottom: 35px;
+  padding-top: 210px;
 }
 
 .choose_us .emblem_text_bottom {
@@ -389,4 +391,89 @@ header #owl-carousel .owl-next:after {
 .choose_us .block_items_top .item_1, .choose_us .block_items_top .item_2, .choose_us .block_items_top .item_3 {
   padding-bottom: 50px;
   border-bottom: solid 1px #ededed;
+  padding-left: 55px;
+}
+
+.choose_us .block_items_top .item_1 {
+  position: relative;
+}
+
+.choose_us .block_items_top .item_1:before {
+  content: '\f1d9';
+  font: normal normal normal 14px/1 FontAwesome;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 36px;
+}
+
+.choose_us .block_items_top .item_2 {
+  position: relative;
+}
+
+.choose_us .block_items_top .item_2:before {
+  content: '\f1d5';
+  font: normal normal normal 14px/1 FontAwesome;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 36px;
+}
+
+.choose_us .block_items_top .item_3 {
+  position: relative;
+}
+
+.choose_us .block_items_top .item_3:before {
+  content: '\f1de';
+  font: normal normal normal 14px/1 FontAwesome;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 36px;
+}
+
+.choose_us .block_items_bottom .item_4 {
+  position: relative;
+  padding-left: 55px;
+  padding-top: 50px;
+}
+
+.choose_us .block_items_bottom .item_4:before {
+  content: '\f186';
+  font: normal normal normal 14px/1 FontAwesome;
+  position: absolute;
+  top: 50;
+  left: 0;
+  font-size: 36px;
+}
+
+.choose_us .block_items_bottom .item_5 {
+  position: relative;
+  padding-left: 55px;
+  padding-top: 50px;
+}
+
+.choose_us .block_items_bottom .item_5:before {
+  content: '\f08a';
+  font: normal normal normal 14px/1 FontAwesome;
+  position: absolute;
+  top: 50;
+  left: 0;
+  font-size: 36px;
+}
+
+.choose_us .block_items_bottom .item_6 {
+  position: relative;
+  padding-left: 55px;
+  padding-top: 50px;
+}
+
+.choose_us .block_items_bottom .item_6:before {
+  content: '\f0a0';
+  font: normal normal normal 14px/1 FontAwesome;
+  position: absolute;
+  top: 50;
+  left: 0;
+  font-size: 36px;
 }
