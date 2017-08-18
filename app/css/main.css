@@ -477,3 +477,49 @@ header #owl-carousel .owl-next:after {
   left: 0;
   font-size: 36px;
 }
+
+.statistic {
+  background-image: url("../img/statistic.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 320px;
+}
+
+.statistic .statistic_block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 100px;
+}
+
+.statistic .statistic_block .block {
+  width: 25%;
+  text-align: center;
+}
+
+.statistic .statistic_block .block .number {
+  font-size: 48px;
+  font-family: 'MontserratRegular';
+  color: #fff;
+}
+
+.statistic .statistic_block .block .text {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  position: relative;
+  padding-top: 35px;
+}
+
+.statistic .statistic_block .block .text:after {
+  content: " ";
+  width: 53px;
+  height: 3px;
+  background-color: #FFF;
+  position: absolute;
+  bottom: -35px;
+  left: 125px;
+}
